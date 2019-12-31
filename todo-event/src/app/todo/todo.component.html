@@ -1,0 +1,14 @@
+<div>
+  <span [ngClass]="{ complete: item.complete }">{{ item.label }}</span>
+  <button
+    type="button"
+    (click)="onChange.emit(item);">Done</button>
+  <button
+    type="button"
+    (click)="onRemove.emit(item);">Delete</button>
+</div>
+
+<!-- todo is triggering emit to todo list -->
+<!-- any component which uses this component, recevies onchange and onRemove event 
+	now they can handle themselves or carry over to its parent
+-->

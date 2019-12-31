@@ -1,0 +1,13 @@
+<p>todo list using todo</p>
+<ul>
+  <li *ngFor="let todo of todos">
+    <todo
+      [item]="todo"
+      (onChange)="onComplete.emit($event)"
+      (onRemove)="onDelete.emit($event)">
+    </todo>
+  </li>
+</ul>
+
+<!-- todo list is triggering to todos component -->
+<!-- carefully look at @output in component.ts file, it indicates , event is outgoing to parent -->

@@ -1,0 +1,11 @@
+<p>todos using todo form component</p>
+<div>
+  <todo-form
+    (onAdd)="addTodo($event)">
+  </todo-form>
+  <todo-list
+    [todos]="todos"
+    (onComplete)="completeTodo($event)"
+    (onDelete)="removeTodo($event)">
+  </todo-list>
+</div>  
