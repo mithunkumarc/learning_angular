@@ -1,0 +1,15 @@
+<h2>Solve 2-way data binding issue :</h2>
+<h4> 1 : input has same value , solve that </h4>
+<h4> 2 : changeing input should reflect value in below printed </h4>
+<h4> 3 : focus should't be lose on change </h4>
+
+<form>
+    <div *ngFor="let item of arrObj; let i = index; trackBy:trackByFn">
+        {{ item }} : <br/>
+        <input type='text' name='inputName' [(ngModel)]='arrObj[i]'>
+        <br />
+        <br />
+    </div>
+</form>
+
+{{ arrObj | json }}
