@@ -1,0 +1,24 @@
+
+<p>
+  view children example
+</p>
+
+<div id="userItemList" *ngFor="let item of itemList; let i=index">
+    <div>
+        <span>{{item.Id}}</span>
+        <span>{{item.Name}}</span>
+        <span>{{item.Count}}</span>
+    </div>
+    <div>
+        <input type="text" name="inputBox" (keyup)="checkvalue($event,i)" #inputText>
+        <button (click)="getValue($event,i)" #inputButton>click</button>
+    </div>
+</div>
+
+
+<br />
+<p>two way binding example</p>
+<form (submit)="readValue()">
+   <input [(ngModel)]="playerName" name="somename">
+   <button>submit</button>
+</form>
