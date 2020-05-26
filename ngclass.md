@@ -24,6 +24,8 @@
             'secondary': country !== 'UK'
           }">String expr example</div>
           
+        <div [class.primary]="true">another syntax example</div>
+          
 #### app.component.ts
 
         import { Component } from '@angular/core';
