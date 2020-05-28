@@ -98,3 +98,6 @@
 
         <hello-app></hello-app>
         <world-app></world-app>
+
+
+> updated : without intermediate instance injector : https://github.com/mithunkumarc/angular/tree/master/injectingServiceExample
