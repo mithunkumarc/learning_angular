@@ -8,4 +8,11 @@
           called every time when data gets updated. eg : async, jsonpipe
           in other ways u can say , works on mutable input, keep track of data and apply pipe
 
-> by default pipes are pure
+
+#### declaring pipe as pure or impure, by default pipes are pure
+
+      @Pipe({
+        name: 'myCustomPipe', 
+        pure: false/true        <----- here (default is `true`), if false : pipe is said to be impure
+      })
+      export class MyCustomPipe {}
