@@ -8,4 +8,6 @@
 #### tobe 
         
                ngstyle
-               pure impure pipes
+               pipes
+                        pure impure pipes
+                        chaining pipes
