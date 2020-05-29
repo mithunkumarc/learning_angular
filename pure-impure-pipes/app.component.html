@@ -1,0 +1,25 @@
+
+<b>filter odd numbers pipe: zero parameter</b>
+<p>before filtering {{data}}</p>
+<p>{{ data | filteroddnumberpipe }}</p>
+
+<p> 
+  1. 
+  data already filtered, now below button will add
+  new data but it will not filtered/identified by pipe.
+  click on button and check console.
+</p>
+<p>
+  2.
+  because pipe is declared as pure pipe.
+  pure pipe doesnot act on data which is updated.
+</p>
+<p>
+  3.
+  you can use impure pipe in this case(remember 
+  impure pipe might executed multple time may lead to 
+  performance issues.
+  )
+</p>
+
+<button (click)='changeData()'>change state of data</button>
