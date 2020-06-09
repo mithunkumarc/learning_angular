@@ -67,3 +67,41 @@
                 <hello *ngIf="true"></hello>             # displayed
                 <hello *ngIf="false"></hello>            # not displayed
 ---
+
+#### if else block
+
+#### app.comp.ts
+
+                import { Component } from '@angular/core';
+
+                @Component({
+                  selector: 'my-app',
+                  templateUrl: './app.component.html',
+                  styleUrls: [ './app.component.css' ]
+                })
+                export class AppComponent  {
+                  age: number = 10;
+                }
+
+
+#### HelloComponent.ts
+
+                import { Component } from '@angular/core';
+                @Component({
+                  selector: 'hello',
+                  template: `hello<ng-content></ng-content>`  # ng content required to display content <hello>content</hello>
+                })
+                export class HelloComponent  {
+
+                }
+
+#### app.comp.html
+
+                <div *ngIf="age != 10; else elseblock">
+                  if block
+                </div>
+
+                <hello #elseblock> else block </hello>
+
+
+---
