@@ -39,4 +39,31 @@
           Oops, you can't vote
         </ng-template>
         
+---        
+        
+#### ngIf  :simple if condition
 
+#### app-comp.ts
+
+                import { Component } from '@angular/core';
+
+                @Component({
+                  selector: 'my-app',
+                  templateUrl: './app.component.html',
+                  styleUrls: [ './app.component.css' ]
+                })
+                export class AppComponent  {
+                  age: number = 10;
+                }
+
+#### app-comp.html
+
+                age is : {{age}}
+                <p *ngIf="age > 9">age is greater than 9</p>
+                <p *ngIf="age < 10">age is less than 10</p>
+
+                *note : it can applied to component
+                <my-app *ngIf="condition"></my-app>
+                <hello *ngIf="true"></hello>             # displayed
+                <hello *ngIf="false"></hello>            # not displayed
+---
