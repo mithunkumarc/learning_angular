@@ -13,6 +13,7 @@
 #### tobe 
         
                ngstyle
-               pipes
-                        pure impure pipes
-                        chaining pipes
+
+#### blogs
+
+        https://ultimatecourses.com/blog/category/angular/
