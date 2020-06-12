@@ -53,3 +53,6 @@ That means you can easily access the variable anywhere in the template.
           <button (click)="helloComp.display(data.value)">send input box data</button>
           <br/>
 
+
+
+#### tobe : can be used with ngForm to access form values, ?? compare with formGroup and formControlName
