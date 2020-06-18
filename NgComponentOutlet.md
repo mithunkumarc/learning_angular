@@ -9,3 +9,6 @@ one of the example is accomadating components for each tab in material tab
 
 
         <ng-container *ngComponentOutlet="ExpressionReturnsComponent/ComponentName"></ng-container>
+        
+
+https://medium.com/@symposia/dynamic-component-rendering-in-angular-5-with-ngcomponentoutlet-410bec3ece75
