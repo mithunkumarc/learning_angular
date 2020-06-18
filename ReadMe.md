@@ -23,8 +23,11 @@
                 last: boolean	Read-Only
                 even: boolean	Read-Only
                 odd: boolean	Read-Only
-                https://medium.com/@symposia/dynamic-component-rendering-in-angular-5-with-ngcomponentoutlet-410bec3ece75
                 what are entryComponents in Angular
+                Feature Modules.
+                Entry Components.
+                Providers.
+                Types of NgModules.
 
 #### blogs
 
