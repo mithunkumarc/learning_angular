@@ -8,6 +8,6 @@ import {HelloService} from './hello.service';
 })
 export class WorldComponent {
   constructor(hs: HelloService){
-    console.log("hello comp :",hs.run());
+    console.log("world comp :",hs.run());
   }
 }
