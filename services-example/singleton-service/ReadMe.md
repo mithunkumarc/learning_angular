@@ -21,3 +21,12 @@ module
             providers: [UserService],
             ...
           })
+
+
+output : 
+
+                hello service constructor
+                hello comp :
+                service running
+                world comp :
+                service running
