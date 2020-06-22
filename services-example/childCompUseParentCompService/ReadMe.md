@@ -1,3 +1,4 @@
+this example shows , child component using service, which is available in parent component  
 
 child component can use parent service  
 
