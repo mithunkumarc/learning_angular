@@ -1,13 +1,14 @@
 > example shows services used as singleton, two compnents using same service instance 
 
-#### three places to declare dependency in angular
+#### two ways to declare dependency in angular
 
-        (1). in module file using providers key under @NgModule
-        (2). while declaring service file, @Injectable decorator
-        (3). while declaring component, using provide under @Component
+        (1). in module file using providers key under @NgModule and declaring service as Injectable
+        used for singleton service
         
-        dont configure services at more than one places, it will lead to create multiple instance of services
-        unless requirement demands use always singleton
+        (2). while declaring component, using provide under @Component and declaring service as Injectable
+        use for each component require different service instance
+        
+        
         
 #### app.module.ts 
 
@@ -25,20 +26,6 @@
             //providers: [ ServiceInjectorS ], // indicate point (1)
         })
         export class AppModule { }
-
-#### service file : service.injector.ts
-
-        import { Component, Injectable, Injector } from '@angular/core';
-        @Injectable({
-          providedIn: 'root', // injecting while declaring service (2)
-        })
-        export class ServiceInjectorS {
-            message = 'I Injector';
-            constructor(){
-              console.log('service injector constructor');
-            }
-        }
-         
          
 #### hello.component.ts   
 
@@ -48,7 +35,7 @@
           @Component({
               selector: 'hello-app', 
               template: '<h1>{{ text }}</h1>',
-              // providers: [ ServiceInjectorS ]      //injecting at component level (3)
+              // providers: [ ServiceInjectorS ]      //injecting at component level (2)
           }) export class HelloComponent {
               text;
 
@@ -69,7 +56,7 @@
             @Component({
                 selector: 'world-app', 
                 template: '<h1>{{ text }}</h1>',
-                // providers: [ServiceInjectorS]  // //injecting at component level (3)
+                // providers: [ServiceInjectorS]  // //injecting at component level (2)
             }) export class WorldComponent {
                 text;
 
@@ -81,6 +68,20 @@
                     console.log("world comp : ",this.text)
                 } 
             }
+            
+#### common declaration of service for both wasy : service.injector.ts
+
+        import { Component, Injectable, Injector } from '@angular/core';
+        @Injectable({
+          providedIn: 'root', // use this for first way (module declaration) 
+        })
+        export class ServiceInjectorS {
+            message = 'I Injector';
+            constructor(){
+              console.log('service injector constructor');
+            }
+        }
+                     
             
 #### app.component.ts
 
