@@ -18,5 +18,5 @@ output
         hello comp :
         service running
         hello service constructor
-        hello comp :
+        world comp :
         service running
