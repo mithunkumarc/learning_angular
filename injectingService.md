@@ -2,11 +2,11 @@
 
 #### two ways to declare dependency in angular
 
-        (1). in module file using providers key under @NgModule and declaring service as Injectable
+        (1). in module file using providers key under @NgModule and declaring service as Injectable  
         used for singleton service
         
-        (2). while declaring component, using provide under @Component and declaring service as Injectable
-        use for each component require different service instance
+        (2). while declaring component, using provide under @Component and declaring service as Injectable  
+        used for each component require different service instance
         
         
         
