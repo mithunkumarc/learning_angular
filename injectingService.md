@@ -69,7 +69,7 @@
                 } 
             }
             
-#### common declaration of service for both wasy : service.injector.ts
+#### common declaration of service for both ways : service.injector.ts
 
         import { Component, Injectable, Injector } from '@angular/core';
         @Injectable({
