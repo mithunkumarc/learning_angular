@@ -28,6 +28,8 @@
                 Entry Components.
                 Providers.
                 Types of NgModules.
+                creating feature modules : 
+                use of forRoot
 
 #### blogs
 
