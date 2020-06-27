@@ -30,6 +30,9 @@
                 Types of NgModules.
                 creating feature modules : 
                 use of forRoot
+                async pipe : https://stackblitz.com/edit/async-pipe?file=app%2Fasync-pipe%2Fasync-pipe.component.html
+                https://codecraft.tv/courses/angular/pipes/async-pipe/
+                NgNonBindable
 
 #### blogs
 
