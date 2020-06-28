@@ -34,6 +34,7 @@
                 https://codecraft.tv/courses/angular/pipes/async-pipe/
                 NgNonBindable
                 lazymodule
+                https://stackblitz.com/edit/angular-shared-module-sample
 
 #### blogs
 
