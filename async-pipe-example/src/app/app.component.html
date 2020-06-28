@@ -1,0 +1,7 @@
+<!-- <p>{{ observable | async | json}}</p> -->
+
+<ul>
+<ng-container *ngFor="let item of observable | async">
+        <li>{{ item.title | json | userpipe}}</li>
+</ng-container>
+</ul>
