@@ -35,6 +35,7 @@
                 NgNonBindable
                 lazymodule
                 https://stackblitz.com/edit/angular-shared-module-sample
+                routing modules
 
 #### blogs
 
