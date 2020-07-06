@@ -4,7 +4,7 @@ Remember that ngOnChanges is specific to bound inputs(@Input) on the component.
 
 This means if you don't have any @Input properties on a child, ngOnChanges will never get called.  
 
-ngOnChanges gets called before ngOnInit and whenever a component's bound input is changed FROM THE PARENT COMPONENT.  
+ngOnChanges gets called before (child component's)ngOnInit and whenever a component's bound input is changed FROM THE PARENT COMPONENT.  
 
 ngOnChanges of parent method will not be called. only child ngOnchanges called only if there is change in @Input properties from parent component.  
 
