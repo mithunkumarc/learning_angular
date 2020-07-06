@@ -1,0 +1,18 @@
+import { Component, SimpleChanges } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
+})
+export class AppComponent  {
+  name ="Angular";
+  count = 1;
+  constructor() {
+    console.log("app constructor")
+  }
+
+  changeName() {
+    this.name = "Angular"+this.count++;
+  }
+}
