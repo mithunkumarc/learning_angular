@@ -11,3 +11,7 @@ ngOnChanges of parent method will not be called. only child ngOnchanges called o
 when child component change its @Input property ngOnChanges is not called, it is called only when @Input prop changed from parent component.  
 
 #### Parent -> changes any @Input prop of Child component -> child component's ngOnChanges method will be called 
+
+#### when to use? : to track the changes in @Input bound properties in child component. you can access to previous value, current value, first change:true/false
+
+first change : means whether @Input prop changed for first time or not
