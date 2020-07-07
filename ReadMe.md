@@ -37,7 +37,9 @@
                 https://stackblitz.com/edit/angular-shared-module-sample
                 routing modules
                 https://www.stackchief.com/
-                https://stackblitz.com/edit/angular-filter-predicate        
+                https://stackblitz.com/edit/angular-filter-predicate  
+                event target : <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter By Name Only....">
+   
 
 #### blogs
 
