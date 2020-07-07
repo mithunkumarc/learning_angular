@@ -1,4 +1,4 @@
-ComponentFactoryResolver : 
+ComponentFactoryResolver : in this example : toggle button , onclick , components will be toggled  
 
 component can be dynamically loaded using ComponentFactoryResolver.
 
