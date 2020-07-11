@@ -1,4 +1,4 @@
-#### attribute directive 
+#### attribute directive : used to apply inline style
 
 app.component.html
 
@@ -7,6 +7,13 @@ app.component.html
           >
             Start editing to see some magic happen :)
           </p>
+          
+          <!-- another way -->
+          <p [ngStyle]="
+          {
+            'color': color, 'background-color':'yellow'
+          }
+          ">another example </p>
 
 app.component.ts
 
