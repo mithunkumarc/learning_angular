@@ -11,7 +11,7 @@ export class AppComponent {
 
   @ViewChild('sample', {  
         read: ViewContainerRef  
-    }) sample: ViewContainerRef; 
+    }) sample: ViewContainerRef; // #sample: used in ng-container, there fore it is called viewContainerRef??
 
   constructor(private componentFactoryResolver: ComponentFactoryResolver) {
     console.log("constructor : ",this.sample); // undefined
