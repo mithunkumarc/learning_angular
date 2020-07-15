@@ -47,4 +47,8 @@
 
         https://ultimatecourses.com/blog/category/angular/
 
-#### 
+## watchout 
+
+        https://hashnode.com/n/angularjs
+        https://www.reddit.com/r/angular/
+        https://dev.to/
