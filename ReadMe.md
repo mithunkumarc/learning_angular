@@ -41,6 +41,7 @@
                 event target : <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter By Name Only....">
                 ViewContainerRef : functions 
                 directives in depth
+                explore observalbes : https://angular.io/guide/observables
    
 
 #### blogs
