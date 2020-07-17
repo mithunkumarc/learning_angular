@@ -1,0 +1,7 @@
+<!-- <p>{{posts | json}}</p> -->
+
+<ul>
+<ng-container *ngFor="let item of posts">
+  <li>{{item.title | json}}</li>
+</ng-container>
+</ul>
