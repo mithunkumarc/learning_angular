@@ -42,7 +42,7 @@
                 ViewContainerRef : functions 
                 directives in depth
                 explore observalbes : https://angular.io/guide/observables
-   
+                customer validators in reactive forms
 
 #### blogs
 
