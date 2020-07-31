@@ -51,3 +51,11 @@
             return {'primary' : this.flag1, 'secondary' : this.flag2 };
           }
         }
+        
+        
+#### live example
+
+ngClass mentioned in angular doc
+
+https://stackblitz.com/edit/ma-ngclass
+
