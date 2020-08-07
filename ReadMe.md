@@ -54,3 +54,4 @@
         https://hashnode.com/n/angularjs
         https://www.reddit.com/r/angular/
         https://dev.to/
+        https://github.com/techiediaries/angular-cookbook
