@@ -55,3 +55,4 @@
         https://www.reddit.com/r/angular/
         https://dev.to/
         https://github.com/techiediaries/angular-cookbook
+        https://www.freakyjolly.com/directory/#.XzDjoCgzY2w
