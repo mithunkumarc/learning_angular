@@ -58,3 +58,5 @@
         https://www.freakyjolly.com/directory/#.XzDjoCgzY2w
         https://stackblitz.com/@kapunahelewong
         https://stackblitz.com/@juristr
+        https://www.positronx.io/free-angular-tutorials/
+        https://malcoded.com/posts?filter=angular
