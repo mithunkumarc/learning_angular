@@ -7,7 +7,7 @@ creating custom module
 2. create component view/view.component.ts
 3. declare ViewComponent inside view.module		  declarations: [ ViewComponent ],
 4. export ViewComponent from view.module 			exports : [ ViewComponent ]
-5. import view.module in app.module.ts
+5. import ViewModule in app.module.ts
 6. you can use ViewComponent in app module(in any of component belong to app module)
 
 
