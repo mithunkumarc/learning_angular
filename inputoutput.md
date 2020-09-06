@@ -59,3 +59,10 @@
 
         <p>{{title}}</p>
         <button (click)="senddata()">click me</button>
+        
+        
+#### stackblitz example for input
+
+https://stackblitz.com/edit/ma-input-example  
+
+when you are sending from parent to child component, use [] to send value to child component.
