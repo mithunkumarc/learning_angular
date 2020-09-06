@@ -60,3 +60,4 @@
         https://stackblitz.com/@juristr
         https://www.positronx.io/free-angular-tutorials/
         https://malcoded.com/posts?filter=angular
+        https://www.djamware.com/post-sub-category/5d5cb64ffdef3404227777c3/angular
