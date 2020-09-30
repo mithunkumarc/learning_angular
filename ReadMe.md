@@ -49,7 +49,9 @@
         https://ultimatecourses.com/blog/category/angular/
 
 ## watchout 
-        
+
+
+        https://www.tektutorialshub.com/angular-tutorial/
         https://www.techiediaries.com/angular/
         https://hashnode.com/n/angularjs
         https://www.reddit.com/r/angular/
@@ -61,3 +63,4 @@
         https://www.positronx.io/free-angular-tutorials/
         https://malcoded.com/posts?filter=angular
         https://www.djamware.com/post-sub-category/5d5cb64ffdef3404227777c3/angular
+        
