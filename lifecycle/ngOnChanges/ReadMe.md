@@ -3,7 +3,7 @@
         The Angular invokes ngOnChanges life cycle hook whenever any data-bound input property of 
         the component or directive changes.
 
-        eg: if Component has property @Input hello, every time hello value changes, ngOnChange() will be invoked.
+        eg: if Component has property @Input() hello: string;, every time hello value changes, ngOnChange() will be invoked.
         
         reference : 
         https://www.tektutorialshub.com/angular/angular-component-life-cycle-hooks/
