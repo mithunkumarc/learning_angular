@@ -18,6 +18,28 @@
         inside the subscription gets executed. 
         Additionally, you get provided the updated object.
 
-        Even if you init the subscription inside ngOnInit this won't cause your entire Component to reload when an update arrives. 
+        Even if you init the subscription inside ngOnInit this won't cause your entire Component 
+        to reload when an update arrives. 
         Only those parts that get updated by your code inside the subscription.
 
+
+#### ngOnInit : when it is fired
+
+1. The Angular raises the ngOnInit hook, after it creates the component and updates its input properties. 
+2. It raises it after the ngOnChanges hook.
+3. This hook is fired only once and immediately after its creation (during the first change detection).
+
+#### usage
+
+1. This is a perfect place where you want to add any initialisation logic for your component.  
+2. Here you have access to every input property of the component. 
+3. You can use them in  http get requests to get the data from the back end server or run some initialization logic etc.(obseravable subscribe)
+
+#### what you can't do/access
+
+1. But note that none of child components or projected content are available at this point. 
+2. Hence any properties we decorate with @ViewChild, @ViewChildren , @ContentChild & @ContentChildren will not be available to use.
+
+#### reference
+
+https://www.tektutorialshub.com/angular/angular-component-life-cycle-hooks/
