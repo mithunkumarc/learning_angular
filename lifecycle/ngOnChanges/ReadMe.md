@@ -8,6 +8,14 @@
         reference : 
         https://www.tektutorialshub.com/angular/angular-component-life-cycle-hooks/
 
+#### drawback of onChange : not called every time 
+
+        ngOnChange works for primitve datatypes
+        if you are passing object from parent to child, onChange will not work
+        
+        Solution : use ngDoCheck
+
+
 when parent component changes child component @Input property, ngOnChanges will be called, it is called on child component. NOT ON PARENT COMPONENT.
 
 Remember that ngOnChanges is specific to bound inputs(@Input) on the component.  
