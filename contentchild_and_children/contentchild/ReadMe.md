@@ -7,3 +7,6 @@
 4. use template ref #someid to read contentchlid
 
       
+example :  
+
+https://stackblitz.com/edit/ma-contentchild
