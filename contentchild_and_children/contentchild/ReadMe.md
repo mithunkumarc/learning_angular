@@ -1,7 +1,10 @@
-### as i observed : need to cross check: 
+### where to instantiate content child?
 
-    content child instance declared in child component. you will get undefined value(for content child) in parent component.
-    use @input to change child comp state from parent.
+    content child must be instantiated in enclosing component.
+    example:
+    <hello><p #test>content child data</p></hello>
+
+    instantiate #test content child inside hello component.
 
 ####    content child
     
