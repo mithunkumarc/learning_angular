@@ -50,7 +50,7 @@
 
 ## watchout 
 
-
+        https://www.positronx.io/free-angular-tutorials/
         https://www.tektutorialshub.com/angular-tutorial/
         https://www.techiediaries.com/angular/
         https://hashnode.com/n/angularjs
