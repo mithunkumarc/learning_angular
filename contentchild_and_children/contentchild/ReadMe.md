@@ -1,3 +1,7 @@
+### as i observed : need to cross check: 
+
+    content child instance declared in child component. you will get undefined value(for content child) in parent component.
+    use @input to change child comp state from parent.
 
 ####    content child
     
