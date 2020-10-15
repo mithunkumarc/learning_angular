@@ -65,4 +65,5 @@
         https://www.djamware.com/post-sub-category/5d5cb64ffdef3404227777c3/angular
         https://malcoded.com/posts/
         https://jaxenter.com/tag/angular
+        https://bezkoder.com/category/angular/
         
