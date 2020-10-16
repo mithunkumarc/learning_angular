@@ -11,3 +11,6 @@ this example explain that you can have component(laptop component) as content ch
 #### box.html
 
         <ng-content></ng-content>        <!-- placeholder for laptop compenent(its html content displays here -->
+
+
+https://stackblitz.com/edit/ma-component-as-content-child
