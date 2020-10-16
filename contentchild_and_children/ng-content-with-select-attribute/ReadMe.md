@@ -37,3 +37,4 @@ Select attribute of ng conent becomes handy when you have multiple content child
 reference : 
 
 https://www.freecodecamp.org/news/everything-you-need-to-know-about-ng-template-ng-content-ng-container-and-ngtemplateoutlet-4b7b51223691/
+https://stackblitz.com/edit/ma-content-child-select-attribute
