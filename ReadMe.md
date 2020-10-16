@@ -66,4 +66,5 @@
         https://malcoded.com/posts/
         https://jaxenter.com/tag/angular
         https://bezkoder.com/category/angular/
+        https://www.freecodecamp.org/news/search/?query=angular
         
