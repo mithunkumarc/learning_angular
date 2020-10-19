@@ -10,7 +10,9 @@
         https://github.com/fknop/angular-pipes
 
 
-#### to
+#### todo
+                try this
+                https://stackoverflow.com/questions/43591686/why-should-i-create-my-angular2-reactive-form-in-the-constructor-instead-of-ngon
         
                ngstyle
                ngFor properties
