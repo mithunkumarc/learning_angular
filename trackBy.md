@@ -53,7 +53,13 @@
         </div>
         <button (click)="getFruits()">get more fruits</button>
         
-        
+
+#### how to check if trackby working?
+
+          check dom in broswer console. press F12.
+          add new element, with trackby only new element added. only one dom updated.
+          without trackby, whole list gets updated.
+
 #### links
 
         https://angular.io/guide/template-syntax#ngfor-with-trackby
