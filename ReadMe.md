@@ -52,6 +52,7 @@
 
 ## watchout 
 
+        https://dotnettutorials.net/course/angular-tutorials/
         https://www.positronx.io/free-angular-tutorials/
         https://www.tektutorialshub.com/angular-tutorial/
         https://www.techiediaries.com/angular/
