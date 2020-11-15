@@ -1,5 +1,10 @@
 #### usefull links 
 
+
+#### Learning paths
+
+        https://github.com/gopinav/Learning-Path-Resources/blob/master/Angular_Learning_Path_2020.pdf
+
 ### Dependency Injection : tree-shakeable-providers-and-services-in-angular
 
         https://coryrylan.com/blog/tree-shakeable-providers-and-services-in-angular
