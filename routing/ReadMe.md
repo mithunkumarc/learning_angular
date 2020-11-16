@@ -11,3 +11,22 @@
 10. Lazy Loading Routes
 11. Route Guards
 
+
+order of route path : 
+
+      pageNotFound component must appear at the end. if you used it in the beginning all route map to pageNotFound component
+
+      const routes: Routes = [
+        {
+          path: 'comp1',
+          component: 'Component1'
+        },
+        {
+          path: 'comp2',
+          component: 'component2'
+        },
+        {
+          path:'**',
+          component: 'PagenotFoundComponent'
+        }
+      ]
