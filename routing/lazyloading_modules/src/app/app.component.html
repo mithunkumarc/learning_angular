@@ -1,0 +1,22 @@
+<h2>{{title}}</h2>
+<br/>
+<button routerLink="/customers">Customers</button>
+<button routerLink="/orders">Orders</button>
+<button routerLink="">Home</button>
+<br />
+<router-outlet></router-outlet>
+
+<!-- 
+  points : 
+  modules loades when they are first requested to display.
+  
+  appRouting routes uses forRoot()
+  feature modules uses forChild()
+
+  routing configuration in feature module similar 
+  to root module routing config.
+
+  Routes vs RouterModule
+
+
+ -->
