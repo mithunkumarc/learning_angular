@@ -30,3 +30,13 @@ order of route path :
           component: 'PagenotFoundComponent'
         }
       ]
+
+for empty path use pathMatch : full
+
+      const routes: Routes = [
+        {
+          path:'',
+          redirectTo:'home',
+          pathMatch:'full'          // match with localhost:4200/
+        }
+      ]
