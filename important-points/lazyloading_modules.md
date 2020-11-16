@@ -25,3 +25,6 @@ html :
         <button routerLink="/customers">Customers</button>
         <button routerLink="/orders">Orders</button>
         <button routerLink="">Home</button>
+
+
+https://stackblitz.com/edit/ma-lazy-loading-modules
