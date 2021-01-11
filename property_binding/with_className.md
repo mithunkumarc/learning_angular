@@ -1,5 +1,8 @@
 #### works similar to ngClass, (need to explore difference)
 
+#### read :  https://ultimatecourses.com/blog/ng-class-angular-classes
+
+#### ngClass is more flexible , multiple classes can be added.
 
 #### app.component.css
 
