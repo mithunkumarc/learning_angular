@@ -1,3 +1,5 @@
+#### works similar to ngClass, (need to explore difference)
+
 
 #### app.component.css
 
