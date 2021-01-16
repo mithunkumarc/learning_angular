@@ -55,5 +55,8 @@
 
 read :   
 https://angular-2-training-book.rangle.io/modules/shared-di-tree  
-https://www.digitalocean.com/community/tutorials/angular-providers-shared-modules
-https://www.youtube.com/watch?v=SBSnsNHQYo4&t=59s
+https://www.digitalocean.com/community/tutorials/angular-providers-shared-modules  
+https://www.youtube.com/watch?v=SBSnsNHQYo4&t=59s  
+
+live :   
+https://stackblitz.com/edit/ma-shared-module-singleton-service
