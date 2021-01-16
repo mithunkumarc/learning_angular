@@ -7,7 +7,14 @@
 5. to test this, inject service to multiple modules(components) accross app and call increment counter method and print.
 // expected output : single counter must be created , actual output : multple counters get created.
 
-### solution : 
+#### solution idea?? : 
+        
+        if services declared in shared module and also in lazy loading module providers(or root),
+        multiple instances of services created.
+        so solution would be declare services in shared module, 
+        pull the same declaration in root module to avoid multiple dependency injection.
+
+### working solution : 
 ### 1. shared module must avoid declaring service in providers in shared module ts file.
 
         import { MyService } from "./myservice.service";
