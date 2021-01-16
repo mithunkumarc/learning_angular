@@ -24,6 +24,8 @@
           //providers: [MyService]        // dont do this
         })
         export class SharedModule {
+        ...
+        }
 
 #### 2. defining a static forRoot method in the shared module that returns a ModuleWithProviders object
 ##### import this forRoot config in root(app) module to register module(shared) and service 
