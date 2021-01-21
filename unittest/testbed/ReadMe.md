@@ -4,7 +4,7 @@ TestBed is the primary api for writing unit tests for Angular applications and l
 
 Note: Use TestBed in tests. It will be set to either TestBedViewEngine or TestBedRender3 according to the compiler used.
 
-1. configure
+1. configure : compile all the dependent components/directives/services
 
         let component: CalculatorComponent;
         let fixture: ComponentFixture<CalculatorComponent>;
