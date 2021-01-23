@@ -33,10 +33,21 @@ spyOn : calls original implementation of method( if you don't stub)
 
 #### spyOn example : used to stub existing method (getMePencil exists on component)
 
+    // example 1
     spyOn(component,'getMePencil').and.returnValue("nataraj pencil");
     const result = component.getMePencil();
     expect(result).toEqual("nataraj pencil");
-
+    
+    // example 2
+    it('test whether getHelperDat is called ', () => {
+        const spy = spyOn(component,'getHelperData'); // creating spy
+        component.getHelperData("helloboss");           // calling spy function
+        const result = component.getData();     // getData() calls getHelperData() internally
+        expect(spy).toHaveBeenCalled();             // make sure getData calls getHelper 
+        expect(spy).toHaveBeenCalledWith("helloboss");
+        console.log(result);// undefined : because getHelperData is spied not original call
+    });
+    
 
 
 read : [html goodies](https://www.htmlgoodies.com/html5/javascript/spy-on-javascript-methods-using-the-jasmine-testing-framework.html#:~:text=In%20Jasmine%2C%20mocks%20are%20referred,object%2C%20methodName%20where%20object.)
