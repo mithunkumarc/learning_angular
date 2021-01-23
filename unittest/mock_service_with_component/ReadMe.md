@@ -1,3 +1,5 @@
+#### component uses service, stub service response
+
 1. import service class
 
 2. in the TestBed Configuration, under provider mention service class.
