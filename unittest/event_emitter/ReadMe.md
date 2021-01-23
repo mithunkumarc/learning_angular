@@ -76,3 +76,5 @@ Note : app component spec need child compoent as dependency as it is being used 
             expect(component.messageEmitter.emit).toHaveBeenCalledWith('send message'); // (3)
           })
         });
+
+#### source : https://stackoverflow.com/questions/35319476/any-way-to-test-eventemitter-in-angular2/46730265
