@@ -6,14 +6,32 @@
 
 4. spyOn can be used to call original method.
 
-createSpy : mock method and its return value  
+createSpy : mock (non existant ) method and its return value  
 spyOn : calls original implementation of method( if you don't stub)  
 
-createSpy : 
+#### createSpy : 
+
+    beforeEach(async(() => {
+        TestBed.configureTestingModule({
+          declarations: [ ChildComponent ],
+          providers: [{
+            provide: ChildService,
+            // getSomeData doesn't exists, but sill we can mock and stub
+            useValue: jasmine.createSpyObj('ChildService', ['getSomeData'])  
+          }]
+        })
+        .compileComponents();
+        mockChildService = TestBed.get(ChildService);                   // ask TestBed to give mockService
+      }));
+
+    //in spec : 
+    mockChildService['getSomeData'].and.returnValue("some");
+    const result = mockChildService['getSomeData']();
+    expect(result).toEqual("some");
 
 
 
-spyOn example : used to stub existing method (getMePencil exists on component)
+#### spyOn example : used to stub existing method (getMePencil exists on component)
 
     spyOn(component,'getMePencil').and.returnValue("nataraj pencil");
     const result = component.getMePencil();
