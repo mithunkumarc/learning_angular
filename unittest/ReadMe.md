@@ -1,9 +1,12 @@
 
-tips : 
+#### tips : 
 
 1. use prefix "f" infront of describe/it to run specific test
 2. to skip specific suite/test use prefix 'x' infornt of describe/it 
 
+#### calling private methods
+
+      YourComponent['privateMethodName']();
 
 examples to try :   
 
