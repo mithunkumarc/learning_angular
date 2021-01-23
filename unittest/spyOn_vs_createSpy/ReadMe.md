@@ -36,3 +36,7 @@ spyOn : calls original implementation of method( if you don't stub)
     spyOn(component,'getMePencil').and.returnValue("nataraj pencil");
     const result = component.getMePencil();
     expect(result).toEqual("nataraj pencil");
+
+
+
+read : [html goodies](https://www.htmlgoodies.com/html5/javascript/spy-on-javascript-methods-using-the-jasmine-testing-framework.html#:~:text=In%20Jasmine%2C%20mocks%20are%20referred,object%2C%20methodName%20where%20object.)
