@@ -8,3 +8,13 @@
 
 createSpy : mock method and its return value  
 spyOn : calls original implementation of method( if you don't stub)  
+
+createSpy : 
+
+
+
+spyOn example : used to stub existing method (getMePencil exists on component)
+
+    spyOn(component,'getMePencil').and.returnValue("nataraj pencil");
+    const result = component.getMePencil();
+    expect(result).toEqual("nataraj pencil");
