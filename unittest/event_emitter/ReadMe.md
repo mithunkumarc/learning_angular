@@ -4,7 +4,9 @@
 
 2. trigger emit
 
-3. verfiy
+3. verfiy  
+
+Note : app component spec need child compoent as dependency as it is being used as child component
 
 #### child.component.html
 
