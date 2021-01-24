@@ -1,3 +1,5 @@
+testing setter and getter function
+
 child component : 
 
         export class ChildComponent{
