@@ -12,3 +12,13 @@ in stub, you just mock response. but in callFake you provide implementation for 
             expect(result).not.toBeNaN(); // expecting number
             console.log(result); // 0.4
           });
+
+#### callFake vs spyOn stub
+
+callFake : fake function provided with implementation
+         
+         spyOn(component,'getHelperData').and.callFake(() => 0.4);
+
+spyOn stub : just return value is mocked without executing any logic
+
+         spyOn(component,'getHelperData').and.returnValue(0.4);
