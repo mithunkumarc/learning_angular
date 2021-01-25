@@ -16,3 +16,8 @@ in which case you MUST use async()/whenStable() combo, as fakeAsync() does not s
 
 async  : supports ajax calls(api call)  
 fakeAsync : doesn't supports ajax call(you need to stub method/mock response)  
+
+
+#### async functions returns promises
+#### await used inside async funtions, await will wait till reponse returned from promise
+
