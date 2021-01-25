@@ -1,4 +1,15 @@
-async vs fakeAsync : 
+async vs fakeAsync in jasmine specs: 
+
+        it('async : ', async () => {
+          // your test
+          // supports ajax calls
+        })
+
+        it('fakeAsync :', fakeAsync () => {
+          // your test
+          // doesn't supports calls/stub method/mock your response
+        })
+
 
 > In almost all cases, they can be used interchangeably, but using fakeAsync()/tick() combo is preferred unless you need to make an XHR call, 
 in which case you MUST use async()/whenStable() combo, as fakeAsync() does not support XHR calls.
