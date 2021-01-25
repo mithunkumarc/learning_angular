@@ -1,4 +1,6 @@
-> jasmine async functions supports ajax call
+> jasmine async functions supports ajax call  
+> angular 8, jasmine 3.4
+
 
 1. child.component.ts
 
