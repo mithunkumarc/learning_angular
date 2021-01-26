@@ -1,0 +1,11 @@
+<p>students Component!</p>
+<ul class="users-div">
+    <li *ngFor="let student of students_list"
+        [id]="'usr-'+student.id"
+        (click)="getDetails(student.id)">
+        {{student.first_name}}
+    </li>
+</ul>
+<div id="board">
+    {{selected_student.first_name}} {{selected_student.last_name}}
+</div>
