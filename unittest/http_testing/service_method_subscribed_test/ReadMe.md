@@ -1,4 +1,5 @@
 #### scenario: student component subscribed to service method to get list of students
+#### this example includes testing student service function(http subscribing functionality)
 
 
 #### student.service.ts
