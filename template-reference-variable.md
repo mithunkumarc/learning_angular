@@ -1,3 +1,7 @@
+#### this topic : check with template variable
+
+        https://angular.io/guide/template-reference-variables
+
 A template reference variable is often a reference to a DOM element within a template. 
 It can also be a reference to an Angular component or directive or a web component 
 That means you can easily access the variable anywhere in the template.
