@@ -1,3 +1,5 @@
+#### read source : https://angular.io/guide/inputs-outputs
+
 #### parent component
 
         import { Component, OnInit } from '@angular/core';
