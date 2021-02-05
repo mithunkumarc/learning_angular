@@ -60,6 +60,18 @@
           add new element, with trackby only new element added. only one dom updated.
           without trackby, whole list gets updated.
 
+#### tobe practiced  : trackby with object
+
+          https://dotnettutorials.net/lesson/angular-ngfor-trackby/
+          
+          trackByStudentID(index: number, student: any): string {
+                 return student.ID;
+          }
+
+          Then do the following changes in the app.component.html file:
+
+          <tr *ngFor=’let student of students; trackBy:trackByStudentID’>
+
 #### links
 
         https://angular.io/guide/template-syntax#ngfor-with-trackby
