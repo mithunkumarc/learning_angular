@@ -7,3 +7,12 @@
     3.  ngAfterViewInit
     4.  ngAfterViewChecked
 5.  ngOnDestroy
+
+
+
+#### ngAfterContentInit and ngAfterContentChecked
+
+                
+            <ng-content></ng-content>
+            
+            <MyComponent>content projection</MyComponent>
