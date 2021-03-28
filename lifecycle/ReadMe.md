@@ -16,3 +16,7 @@
             <ng-content></ng-content>
             
             <MyComponent>content projection</MyComponent>
+
+#### read 
+
+            https://blog.logrocket.com/angular-lifecycle-hooks/
