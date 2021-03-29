@@ -6,7 +6,7 @@ todo
       https://angular.io/guide/hierarchical-dependency-injection
 
 
-#### service can be registered to dependency injecting system at either in two places
+#### service can be registered to dependency injecting system at either in three places
 
 1. appmodule: if you register service here then no need of doing it again in @Injectable({providedIn: 'root'})
 
@@ -26,3 +26,19 @@ todo
               providedIn: 'root'
             })
             export class HelloService {}
+
+3. inside component which uses service: uses providers attribute
+
+
+            @Component({
+              selector: 'hello',
+              template: `<h1>Hello {{name}}!</h1>`,
+              styles: [`h1 { font-family: Lato; }`],
+              providers: [ HelloService ]  // no need to register in appModule/inside service class
+            })
+            export class HelloComponent  {
+              @Input() name: string;
+              constructor(helloService: HelloService) {
+                console.log(helloService.getData());
+              }
+            }
