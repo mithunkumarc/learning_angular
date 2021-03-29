@@ -42,3 +42,10 @@ todo
                 console.log(helloService.getData());
               }
             }
+
+
+** Note : 
+
+      When you add a service provider to the root application injector, it’s available throughout the app.
+      You should always provide your service in the root injector unless there is a case where you want 
+      the service to be available only if the consumer imports a particular @NgModule.
