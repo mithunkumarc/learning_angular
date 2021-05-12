@@ -54,6 +54,9 @@
 #### blogs
 
         https://ultimatecourses.com/blog/category/angular/
+        https://grokonez.com/
+        Roytuts
+        Jasonwatmore.com
 
 ## watchout 
 
