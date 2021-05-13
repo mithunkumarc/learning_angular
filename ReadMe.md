@@ -57,6 +57,7 @@
         https://grokonez.com/
         Roytuts
         Jasonwatmore.com
+        blog.jscrambler.com
 
 ## watchout 
 
