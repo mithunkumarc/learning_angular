@@ -13,6 +13,10 @@ in angular.json file , under architect build : update styles and scripts
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+            
+if not working
+
+            @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // in styles.css
 
 check in one of component html
 
