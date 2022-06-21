@@ -58,6 +58,7 @@
         Roytuts
         Jasonwatmore.com
         blog.jscrambler.com
+        concretepage.com/angular
 
 ## watchout 
 
