@@ -15,4 +15,10 @@ html
         </div>
         
         
-import flexmodule in appmodule, install angular flex module from npm pacage        
+import flexmodule in appmodule, install angular flex module from npm package        
+
+
+![screenshot]([/assets/img/MarineGEO_logo.png](https://github.com/mithunkumarc/learning_angular/blob/master/angular_flex_layout/example_fill_gap/Screenshot%20from%202022-06-26%2011-12-30.png) "screenshot")
+
+
+
