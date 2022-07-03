@@ -37,3 +37,7 @@ Custom directives :
 #### todo 
 
         custom structural directive
+        
+#### links
+
+        https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component
