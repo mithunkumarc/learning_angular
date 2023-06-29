@@ -51,6 +51,9 @@
                 explore observalbes : https://angular.io/guide/observables
                 customer validators in reactive forms
 
+                ng-template, ng-container, templateOutlet
+                https://www.youtube.com/watch?v=cr-wX-mIotU
+
 #### blogs
 
         https://ultimatecourses.com/blog/category/angular/
