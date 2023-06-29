@@ -53,6 +53,7 @@
 
                 ng-template, ng-container, templateOutlet
                 https://www.youtube.com/watch?v=cr-wX-mIotU
+                https://www.youtube.com/watch?v=TqR_NdyHJGo
 
 #### blogs
 
