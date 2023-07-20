@@ -65,6 +65,10 @@
         blog.jscrambler.com
         concretepage.com/angular
 
+#### error
+
+        https://gist.github.com/vades/a225170304f34f88a7a5d48bf4b1f58c
+
 ## watchout 
 
         https://dotnettutorials.net/course/angular-tutorials/
