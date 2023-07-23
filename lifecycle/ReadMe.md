@@ -20,3 +20,7 @@
 #### read 
 
             https://blog.logrocket.com/angular-lifecycle-hooks/
+
+#### ngdocheck
+
+            https://www.stackchief.com/blog/ngDoCheck%20Example%20%7C%20Angular
