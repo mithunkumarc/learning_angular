@@ -11,3 +11,11 @@ ngDeep depricated : define custom variable in :host (parent comp ex app) use in 
 material theme generator
 
             https://materialtheme.arcsine.dev/
+
+Override Child Component CSS using host ng deep pseudo class selector
+
+            https://www.youtube.com/watch?v=NQhrV_1riK4
+
+            :host ::ng-deep app-child p {
+                  color: green
+            }
