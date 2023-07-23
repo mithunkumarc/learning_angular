@@ -7,3 +7,7 @@ how to use :host?
 ngDeep depricated : define custom variable in :host (parent comp ex app) use in child comp instead of ngDeep  
       
       source : https://www.youtube.com/watch?v=PPmba5cBu3w
+
+material theme generator
+
+            https://materialtheme.arcsine.dev/
