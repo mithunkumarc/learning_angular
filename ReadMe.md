@@ -91,6 +91,7 @@
         https://bezkoder.com/category/angular/
         https://www.freecodecamp.org/news/search/?query=angular
         https://github.com/onehungrymind/angular13-fundamentals-workshop
+        https://www.youtube.com/@vijaytechlearning3577/playlists
         
 #### example
 
