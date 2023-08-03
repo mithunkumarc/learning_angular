@@ -94,6 +94,7 @@
         https://www.youtube.com/@vijaytechlearning3577/playlists
         https://github.com/funOfheuristic
         https://github.com/funOfheuristic/signal
+        https://github.com/ultrasonicsoft?tab=repositories
         
 #### example
 
