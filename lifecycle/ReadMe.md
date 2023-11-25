@@ -24,3 +24,7 @@
 #### ngdocheck
 
             https://www.stackchief.com/blog/ngDoCheck%20Example%20%7C%20Angular
+
+#### on push strategy
+
+        https://www.youtube.com/watch?v=qklnVKgxMIY
