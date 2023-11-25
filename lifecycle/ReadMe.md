@@ -40,3 +40,9 @@
 
     https://stackoverflow.com/questions/53426412/should-use-changedetectionstrategy-onpush-for-eveything
     https://www.youtube.com/watch?v=KmeRGCGnwy0
+
+#### detach reattach
+
+    https://www.youtube.com/watch?v=2qA_5v8NahA
+    detach : if you want to stop change detection while using onPush strategy
+    reattach : if you want to enable change detection while using onPush strategy
