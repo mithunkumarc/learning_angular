@@ -27,4 +27,16 @@
 
 #### on push strategy
 
-        https://www.youtube.com/watch?v=qklnVKgxMIY
+1. when you enable onPush change detection strategy, component runs change detection only when @Input prop changes(only immutable)
+2. use markForCheck to run change detection manually
+
+
+       https://www.youtube.com/watch?v=qklnVKgxMIY
+       https://www.youtube.com/watch?v=2qA_5v8NahA
+       https://www.youtube.com/watch?v=KmeRGCGnwy0
+
+
+#### markforcheck
+
+https://stackoverflow.com/questions/53426412/should-use-changedetectionstrategy-onpush-for-eveything
+https://www.youtube.com/watch?v=KmeRGCGnwy0
