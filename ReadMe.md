@@ -99,3 +99,8 @@
 #### example
 
         https://github.com/ArtOfEngineer/angular8
+
+#### channels
+
+        https://www.youtube.com/@JoshuaMorony
+        https://www.youtube.com/@MonsterlessonsAcademy
