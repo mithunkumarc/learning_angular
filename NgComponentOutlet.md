@@ -13,3 +13,7 @@ one of the example is accomadating components for each tab in material tab
 references : 
 
 1.  [material tab example](https://medium.com/@symposia/dynamic-component-rendering-in-angular-5-with-ngcomponentoutlet-410bec3ece75)
+
+example : 
+
+        https://www.digitalocean.com/community/tutorials/angular-reusable-components-ngtemplateoutlet
