@@ -19,3 +19,6 @@ Override Child Component CSS using host ng deep pseudo class selector
             :host ::ng-deep app-child p {
                   color: green
             }
+practice
+
+      https://github.com/SinghDigamber/angular-material-custom-theme
