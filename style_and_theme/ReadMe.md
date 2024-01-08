@@ -22,3 +22,4 @@ Override Child Component CSS using host ng deep pseudo class selector
 practice
 
       https://github.com/SinghDigamber/angular-material-custom-theme
+      https://www.youtube.com/watch?v=0tSvBgAgi9M
