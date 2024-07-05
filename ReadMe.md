@@ -104,3 +104,12 @@
 
         https://www.youtube.com/@JoshuaMorony
         https://www.youtube.com/@MonsterlessonsAcademy
+
+
+#### try examples
+
+        custom directive
+        component outlet
+        dynamic forms
+        table
+        
