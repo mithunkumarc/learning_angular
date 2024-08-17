@@ -95,6 +95,7 @@
         https://github.com/funOfheuristic
         https://github.com/funOfheuristic/signal
         https://github.com/ultrasonicsoft?tab=repositories
+        https://www.youtube.com/playlist?list=PL1UWPWOy5UldankKPNcbAou8ocAt0rdpA : creating library
         
 #### example
 
