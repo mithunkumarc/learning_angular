@@ -1,0 +1,10 @@
+<div *ngFor="let book of books" class="book-list-container">
+    <div class="book-style">
+        <span><strong>{{book.volumeInfo.title}}</strong></span>
+        by
+        <span class="author-style"><i>{{book.volumeInfo.authors}}</i></span>
+        &nbsp;&nbsp;
+        <button class="remove-button" (click)="remove.emit(book.id)">Remove</button>
+    </div>
+</div>
+

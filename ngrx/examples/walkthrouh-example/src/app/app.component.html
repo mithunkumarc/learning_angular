@@ -1,0 +1,7 @@
+<div class="title">Book list component</div>
+<app-book [books]="(books$ | async)!" (add)="onAdd($event)"></app-book>
+<div class="title">collection component</div>
+<app-book-collection [books]="(bookCollection$ | async)!" (remove)="onRemove($event)"></app-book-collection>
+<br>
+<hr>
+<router-outlet></router-outlet>
