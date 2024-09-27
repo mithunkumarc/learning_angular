@@ -64,6 +64,7 @@
         Jasonwatmore.com
         blog.jscrambler.com
         concretepage.com/angular
+        https://danielk.tech/
 
 #### error
 
