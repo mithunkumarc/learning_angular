@@ -1,5 +1,10 @@
 #### usefull links 
 
+#### install
+
+        use node version manager : nvm, you can switch nodejs version, use/uninstall. 
+        use npx for ng commands, no need to install ng
+        eg : creating component : npx ng g c test
 
 #### Learning paths
 
