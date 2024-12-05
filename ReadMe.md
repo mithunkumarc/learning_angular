@@ -1,5 +1,7 @@
 #### usefull links 
 
+#### stackoverflow tag : angular
+
 #### install
 
         use node version manager : nvm, you can switch nodejs version, use/uninstall. 
