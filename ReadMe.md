@@ -72,6 +72,7 @@
         blog.jscrambler.com
         concretepage.com/angular
         https://danielk.tech/
+        https://www.angularspace.com/explore/
 
 #### error
 
