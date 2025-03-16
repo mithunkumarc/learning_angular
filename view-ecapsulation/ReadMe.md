@@ -20,3 +20,6 @@
       :host {
         background-color: yellow;
       }
+
+
+#### 3. :host-context()
