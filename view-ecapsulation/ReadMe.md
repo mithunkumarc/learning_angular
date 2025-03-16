@@ -23,3 +23,5 @@
 
 
 #### 3. :host-context()
+
+#### ViewEncaplustion.None ViewEncaplustion.Emulated(Default) ViewEncaplustion.ShadowDom ViewEncaplustion.native(deprecated)
