@@ -1,6 +1,7 @@
 #### 1. view encapsulation
 
-      the style applied to component level will affect only component style not outside the component. Use global style to resuse style accros components
+      the style applied to component level will affect only component style not outside the component. 
+      Use global style to resuse style accros components
 
 #### 2. style using custom component element vs :host 
       
