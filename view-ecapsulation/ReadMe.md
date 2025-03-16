@@ -7,7 +7,7 @@
         background-color: yellow;
       }
       
-      # in order to apply above style to component use :host 
+      # in order to apply above style to component use :host , :host will not affect child components
       :host {
         background-color: yellow;
       }
