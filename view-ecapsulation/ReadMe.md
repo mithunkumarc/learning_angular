@@ -24,4 +24,25 @@
 
 #### 3. :host-context()
 
-#### ViewEncaplustion.None ViewEncaplustion.Emulated(Default) ViewEncaplustion.ShadowDom ViewEncaplustion.native(deprecated)
+      Is syntax for styling a specific class anywhere outside the current element. 
+      The class must already be applied to an element outside the scope of the current element.
+
+      eg : 
+
+      # child component html
+            <p class="title">host works!</p>
+
+      # child component scss, condition is parent dom/element must have class class theme
+            :host-context(.theme) .title {
+                color: red;
+            }
+
+      # parent component html, condition met,
+            <div class="theme">
+                <app-host></app-host>
+            </div>
+
+      
+
+
+#### 4. ViewEncaplustion.None ViewEncaplustion.Emulated(Default) ViewEncaplustion.ShadowDom ViewEncaplustion.native(deprecated)
