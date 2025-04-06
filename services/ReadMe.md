@@ -39,3 +39,6 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
       since services  are classes their name can be used as injection token
       classes are runtime construct(instances can be creatd)
       interfaces cannot be used as injection token as it is only compile time construct
+
+#### Hierarchial dependency injection
+
