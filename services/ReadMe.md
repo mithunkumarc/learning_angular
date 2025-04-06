@@ -34,6 +34,8 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
 
       new version injection token is not required
       class names can be used as injection token
+            {provide: Myservice, useClass: Myservice}
+      if both injection token and class name is same then no need to declare 
       since services  are classes their name can be used as injection token
       classes are runtime construct(instances can be creatd)
       interfaces cannot be used as injection token as it is only compile time construct
