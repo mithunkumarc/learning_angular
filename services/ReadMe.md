@@ -59,7 +59,7 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
 - providers can be defined at each component level, i.e, Parent component and child component
 - if parent and child component both declare same dependency(services) in providers.  
 - two instances of services are created, one at child level and one at parent level(avoid this scenario).  
-- if you skip declaring dependency(service) in child component, it will look in parent component and use that dependency.
+- if you skip declaring dependency(service) in child component, it will look in parent component and use that dependency. (best scenario - injectable root)
 
 
 
