@@ -64,9 +64,9 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
 
 
 
-#### TreeShakable :  doubt**
+#### TreeShakable : 
 
-      creating service only if requested (user providedIn for implementation)
+      creating and adding service/component to bundle only if used (use providedIn for implementation)
 
 - provideIn is treeshakable syntax, if injectable service/class is not used it will not be added to bundle
 - if service is used only specific to a class then use providers(which provides dependency) at class level
