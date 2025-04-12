@@ -72,5 +72,28 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
 - With providedIn: 'any', all eagerly loaded modules share a singleton instance; 
 - lazy loaded modules each get their own unique instance.
 
+#### Injecting class
+
+      
+      export interface AppConfig {
+      	apiUrl: string;
+      	courseCacheSize: number;
+      }
+      
+      
+      export cons APP_CONFIG: AppConfig = {
+      	apiUrl: 'http://localhost:9000',
+      	courseCacheSize: 10
+      }
+      
+      export const CONFIG_TOKEN = 
+       	new InjectionToken<AppConfig>('CONFIG_TOKEN', {
+       		providedIn: 'root',
+       		factory: () => APP_CONFIG
+       	})
+       	
+       //component
+       constructor(@nject(CONFIG_TOKEN) private config: AppConfig) {}
+
 
 
