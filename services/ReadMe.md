@@ -66,7 +66,7 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
 
 #### TreeShakable :  
 
-      creating request only if requested (user providedIn for implementation)
+      creating service only if requested (user providedIn for implementation)
 - if service is used only specific to a class then use providers(which provides dependency) at class level
 - if service is used accross app use providedIn syntax at Injectable(service level declaration: treeshakable syntax)
 - With providedIn: 'any', all eagerly loaded modules share a singleton instance; 
