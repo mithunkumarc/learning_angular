@@ -96,4 +96,11 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
        constructor(@nject(CONFIG_TOKEN) private config: AppConfig) {}
 
 
+#### providedIn vs Providers
 
+> https://medium.com/@pratap-aditya/angular-providedin-vs-providers-arrays-17b475f03cbb
+      
+      There are two ways to create a single service in angular that is by using -
+      
+      1. providedIn property
+      2. NgModule providers arrays
