@@ -125,3 +125,6 @@
         dynamic forms
         table
         
+#### podcast
+
+        https://www.youtube.com/@ngPolandConf
