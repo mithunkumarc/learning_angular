@@ -106,3 +106,31 @@ provider : creates dependency on behalf of DI  (uses factory function), if no pr
       
       1. providedIn property
       2. NgModule providers arrays
+
+#### decorator : @Optional
+
+      
+       // no null inject error, but need to handle if myservice is null after component initialization
+       @Optional() private myservice: MyService;
+
+ #### decorator: @Self
+       
+       // self, use only currnet component(assuming child) dependency injection(DI can be at parent level, child level)
+       @self() private myservice: MyService;// define this at current component : providers: [{MyService}] (local privder)
+       
+ #### decorator : @SkipSelf
+ 
+       : use DI from parent , skip from current DI
+       @SkipSelf() private myservice: MyService;// define this at parent component : providers: [{MyService}] (parent component proivder)
+
+ 
+ 
+
+#### decorator : @Host
+
+      Directvies can also use services(it uses root/appcomponent DI)
+      if host component and directive both use same service, to avoid conflict use host decorator to directive service dependency
+      host will tell directive to use dependency from host component dependency injection
+      	eg: <my-component my-directive></my-component> 
+      	in directive constructor
+      		constructor(@Host() private myservice: MyService) {} // use DI from host component My-Component
