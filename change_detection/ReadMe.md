@@ -18,7 +18,9 @@
 - If you are using onPush strategy in a component
 - In that component if you subsribing to Observable(backend api) use async pipe to subscribe 
 - Advantage of async it subscribes and unsubscribes and listen to change in value of obervable
-- onPush will not work with traditional subscribe, eg: this.service.getData().subscribe(data => this.model = data); 	
+- onPush will not work with traditional subscribe, eg: this.service.getData().subscribe(data => this.model = data);
+- The async pipe calls markForCheck under the hood whenever an Observable emits a value. Therefore OnPush components also run change detection if an Observable
+that the async pipe is subscribed to emits
 
 
 #### Note : 
