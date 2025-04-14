@@ -19,3 +19,8 @@
 - In that component if you subsribing to Observable(backend api) use async pipe to subscribe 
 - Advantage of async it subscribes and unsubscribes and listen to change in value of obervable
 - onPush will not work with traditional subscribe, eg: this.service.getData().subscribe(data => this.model = data); 	
+
+
+#### Note : 
+
+use always default change detection, use onPush+async when working with large data and need performance
