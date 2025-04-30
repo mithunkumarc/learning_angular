@@ -63,6 +63,7 @@
                 https://www.youtube.com/watch?v=TqR_NdyHJGo
                 https://github.com/tkmagesh/Zeomega-Angular-Jun-2023/tree/main/05-rxjs
                 https://github.com/rangle
+                forms in depth and router in depth : angular university
 
 #### blogs
 
