@@ -117,6 +117,7 @@
 
         https://www.youtube.com/@JoshuaMorony
         https://www.youtube.com/@MonsterlessonsAcademy
+        https://www.youtube.com/@ZoaibKhan/featured
 
 
 #### new versions
