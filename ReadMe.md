@@ -119,6 +119,10 @@
         https://www.youtube.com/@MonsterlessonsAcademy
 
 
+#### new versions
+
+        https://www.bacancytechnology.com/blog/whats-new-in-angular-19
+
 #### try examples
 
         custom directive
