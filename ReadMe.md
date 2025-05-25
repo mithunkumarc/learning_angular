@@ -112,6 +112,7 @@
 #### example
 
         https://github.com/ArtOfEngineer/angular8
+        https://www.mindbowser.com/ngtemplateoutlet-angular-components/
 
 #### channels
 
