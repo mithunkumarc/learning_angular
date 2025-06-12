@@ -108,6 +108,7 @@
         https://github.com/ultrasonicsoft?tab=repositories
         https://www.youtube.com/playlist?list=PL1UWPWOy5UldankKPNcbAou8ocAt0rdpA : creating library
         https://medium.com/deutsche-telekom-gurgaon/how-can-we-use-ng-template-and-ngtemplateoutlet-for-rendering-complex-and-dynamic-content-6fc642e66557
+        https://www.youtube.com/watch?v=ylladJ30uOo
         
 #### example
 
