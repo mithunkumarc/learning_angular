@@ -75,6 +75,7 @@
         concretepage.com/angular
         https://danielk.tech/
         https://www.angularspace.com/explore/
+        FED learning youtube
 
 #### error
 
