@@ -65,6 +65,7 @@
                 https://github.com/rangle
                 forms in depth and router in depth : angular university
                 https://github.com/PacktPublishing/Angular-Cookbook
+                https://www.youtube.com/watch?v=GiQxuuBY69A brushup
 
 #### blogs
 
