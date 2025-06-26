@@ -113,6 +113,7 @@
         https://medium.com/deutsche-telekom-gurgaon/how-can-we-use-ng-template-and-ngtemplateoutlet-for-rendering-complex-and-dynamic-content-6fc642e66557
         https://www.youtube.com/watch?v=ylladJ30uOo
         unit test : https://www.youtube.com/playlist?list=PLoC8Q0moRTSiTBAKWBGiJjFUMpiFdaGdF
+        https://github.com/PacktPublishing/Mastering-Angular-with-Interview-Preparation-and-E-commerce-App
         
 #### example
 
