@@ -78,6 +78,7 @@
         https://danielk.tech/
         https://www.angularspace.com/explore/
         FED learning youtube
+        https://blog.angulartraining.com/
 
 #### error
 
